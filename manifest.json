@@ -1,0 +1,24 @@
+{
+  "name" : "Lightswitch",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "daecd58f",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  } ],
+  "uiEntryPoints" : [ {
+    "label" : "Switch Theme",
+    "type" : "menu",
+    "commandId" : "switchlight",
+    "shortcut":{"mac":"Cmd+Alt+L","win":"Ctrl+Alt+L"}
+  } ],
+  "version" : "0.0.1"
+}
